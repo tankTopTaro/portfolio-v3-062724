@@ -8,3 +8,6 @@ Animations are done using GSAP
 
 ## Deployed in
 [Netlify](https://kevinbalmores.netlify.app/)
+
+## Palettes taken from
+[Pokemon Pallete](https://pokemonpalette.com/)
