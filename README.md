@@ -7,4 +7,4 @@ Projects will be added in the Work page in the near future
 Animations are done using GSAP
 
 ## Deployed in
-[Netlify](https://kevinbalmores.netlify.app/
+[Netlify](https://kevinbalmores.netlify.app/)
