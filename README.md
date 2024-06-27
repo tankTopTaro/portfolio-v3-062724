@@ -5,3 +5,6 @@ This site is still under construction, due to the maker's lack of decent project
 Projects will be added in the Work page in the near future 
 
 Animations are done using GSAP
+
+## Deployed in
+[Netlify](https://kevinbalmores.netlify.app/
