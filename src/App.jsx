@@ -7,8 +7,9 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import './App.css'
 import { MotionPathPlugin } from "gsap/all"
+import { TextPlugin } from "gsap/all"
 
-gsap.registerPlugin(useGSAP, MotionPathPlugin)
+gsap.registerPlugin(useGSAP, MotionPathPlugin, TextPlugin)
 
 const theme = createTheme({
   typography: {
