@@ -14,6 +14,11 @@ export default function ButtonAppBar() {
           Kevin Balmores
         </Typography>
       </Link>
+      <Link href='https://github.com/tankTopTaro?tab=repositories' underline='none'>
+        <Typography variant='h6' p={2} color='textPrimary' fontWeight={600} sx={{ letterSpacing: 1.5 }}>
+          Github_Repo
+        </Typography>
+      </Link>
       <Link component={RouterLink} to='/about' underline='none'>
         <Typography variant='h6' p={2} color='textPrimary' fontWeight={600} sx={{ letterSpacing: 1.5 }}>
           About

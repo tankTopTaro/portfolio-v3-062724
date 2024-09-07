@@ -1,5 +1,6 @@
 import { Box, IconButton, ImageList, ImageListItem, ImageListItemBar, Typography } from "@mui/material"
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function srcset(image, width, height, rows = 1, cols = 1) {
     return {
@@ -34,13 +35,22 @@ const Showcase = ({workList}) => {
                                   title={work.title}
                                   position="top"
                                   actionIcon={
-                                    <IconButton
-                                      sx={{ color: 'white' }}
-                                      aria-label={`star ${work.title}`}
-                                      onClick={() => window.open(work.link, '_blank')}
-                                    >
-                                      <OpenInNewIcon />
-                                    </IconButton>
+                                    <>
+                                        <IconButton
+                                            sx={{ color: 'white' }}
+                                            aria-label={`star ${work.title}`}
+                                            onClick={() => window.open(work.repo, '_blank')}
+                                        >
+                                            <GitHubIcon />
+                                        </IconButton>
+                                        <IconButton
+                                            sx={{ color: 'white' }}
+                                            aria-label={`star ${work.title}`}
+                                            onClick={() => window.open(work.link, '_blank')}
+                                        >
+                                            <OpenInNewIcon />
+                                        </IconButton>
+                                    </>
                                   }
                                   actionPosition="left"
                             />

@@ -9,12 +9,12 @@ import gallery from "../assets/gallery.png"
 
 /* eslint-disable no-unused-vars */
 const workList = [
-  {id: 0, title: 'Go Shop', path: goshop, link: 'https://main.d2bczkn7m106ta.amplifyapp.com/', },
-  {id: 1, title: 'MUI Homepage Template', path: template, link: 'https://homepage-template-030724.netlify.app/'},
-  {id: 2, title: 'Pokedex', path: pokedex, link:'https://pokedexv5.d2pp0or97l5961.amplifyapp.com', featured: true},
-  {id: 3, title: 'Gallery', path: gallery, link: 'https://main.dg5ukfoehm2he.amplifyapp.com/', featured: true},
-  {id: 4, title: 'React Tic Tac Toe', path: tictactoe, link: 'https://tictactoe-030424.netlify.app/'},
-  {id: 5, title: 'Weather App', path: weather, link: 'https://weather-app-pwa-022724.netlify.app/'},
+  {id: 0, title: 'Go Shop', path: goshop, link: 'https://main.d2bczkn7m106ta.amplifyapp.com/', repo: 'https://github.com/tankTopTaro/Mini-Project-2-Shop-App' },
+  {id: 1, title: 'MUI Homepage Template', path: template, link: 'https://homepage-template-030724.netlify.app/', repo: 'https://github.com/tankTopTaro/homepage-template-030724'},
+  {id: 2, title: 'Pokedex', path: pokedex, link:'https://pokedexv5.d2pp0or97l5961.amplifyapp.com', featured: true, repo: 'https://github.com/tankTopTaro/Pokedex'},
+  {id: 3, title: 'Gallery', path: gallery, link: 'https://main.dg5ukfoehm2he.amplifyapp.com/', featured: true, repo: 'https://github.com/tankTopTaro/dailyUI-003'},
+  {id: 4, title: 'React Tic Tac Toe', path: tictactoe, link: 'https://tictactoe-030424.netlify.app/', repo: 'https://github.com/tankTopTaro/react-tictactoe-030424'},
+  {id: 5, title: 'Weather App', path: weather, link: 'https://weather-app-pwa-022724.netlify.app/', repo: 'https://github.com/tankTopTaro/weather-app-pwa-022724'},
 ]
 
 function Work() {
