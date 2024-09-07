@@ -39,7 +39,7 @@ function App() {
         <div ref={container}>
         <Container maxWidth={false} className="bg">
             <ButtonAppBar />
-            <Box component='section'>
+            <Box component='section' zIndex={999}>
                 <Outlet />
             </Box>
         </Container>

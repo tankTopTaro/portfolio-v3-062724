@@ -1,5 +1,4 @@
 import { Box, Container, Typography } from "@mui/material"
-import UnderConstruction from "../components/UnderConstruction"
 import profile from '../images/profile.png'
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"

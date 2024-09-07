@@ -1,20 +1,26 @@
-import { Container } from "@mui/material"
-import UnderConstruction from "../components/UnderConstruction"
+import { Box, Container, ImageList, ImageListItem, Typography } from "@mui/material"
+import Showcase from "../components/Showcase"
+import template from "../assets/template.png"
+import tictactoe from "../assets/tictactoe.png"
+import weather from "../assets/weather.png"
+import pokedex from "../assets/pokedex.png"
+import goshop from "../assets/goshop.png"
+import gallery from "../assets/gallery.png"
 
 /* eslint-disable no-unused-vars */
 const workList = [
-  {id: 0, title: 'MUI Homepage Template', link: 'https://homepage-template-030724.netlify.app/'},
-  {id: 1, title: 'React Tic Tac Toe', link: 'https://tictactoe-030424.netlify.app/'},
-  {id: 2, title: 'Weather App', link: 'https://weather-app-pwa-022724.netlify.app/'},
+  {id: 0, title: 'Go Shop', path: goshop, link: 'https://main.d2bczkn7m106ta.amplifyapp.com/', },
+  {id: 1, title: 'MUI Homepage Template', path: template, link: 'https://homepage-template-030724.netlify.app/'},
+  {id: 2, title: 'Pokedex', path: pokedex, link:'https://pokedexv5.d2pp0or97l5961.amplifyapp.com', featured: true},
+  {id: 3, title: 'Gallery', path: gallery, link: 'https://main.dg5ukfoehm2he.amplifyapp.com/', featured: true},
+  {id: 4, title: 'React Tic Tac Toe', path: tictactoe, link: 'https://tictactoe-030424.netlify.app/'},
+  {id: 5, title: 'Weather App', path: weather, link: 'https://weather-app-pwa-022724.netlify.app/'},
 ]
 
 function Work() {
-
   return (
     <Container maxWidth={false}>
-      
-        <UnderConstruction />
-      
+        <Showcase workList={workList} />
     </Container>
   )
 }
